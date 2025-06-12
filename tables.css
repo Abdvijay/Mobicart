@@ -1,0 +1,40 @@
+
+#style
+{
+   font-family: "Times New Roman",Times,serif;
+   border-collapse:collapse;
+   width:100%;
+   text-transform: uppercase;
+}
+#style td,#style th
+{
+   border:3px solid #333;
+   padding:15px;
+}
+#style tr:nth-child(even)
+{
+   background-color:#f2f2f2;
+}
+#style tr:hover
+{
+   background-color:#ddd;
+}
+#style th
+{
+   padding-top:15px;
+   padding-bottom:15px;
+   text-align:left;
+   background-color:#4CAF50;
+   color:white;
+}
+#style a{
+   display: inline-block;
+   text-transform: uppercase;
+   text-decoration: none;
+   color:black;
+}
+#style a:hover{
+   width:60px;
+   color:red;
+}
+

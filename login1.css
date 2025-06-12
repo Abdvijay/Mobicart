@@ -1,0 +1,123 @@
+body{
+   margin: 0;
+   padding: 0;
+   font-family: times new roman;
+   background-color: black;
+   overflow: hidden;
+   background-size: cover;
+   
+  }
+.box{
+   border:3px solid red;
+   width: 300px;
+   padding: 35px 50px;
+   position: absolute;
+   top: 50%;
+   left: 65%;
+   transform: translate(-50%,-50%);
+   background-color: white;
+   text-align: center;
+   border-radius: 10px;
+  }
+.box h2{
+   color: #4285f4;
+   text-transform: uppercase;
+   font-weight: bold;
+  }
+.box input[type="text"],.box input[type="password"],.box input[type="email"]{
+   border: 0;
+   background: none;
+   display: block;
+   margin: 20px auto;
+   text-align: center;
+   border: 2px solid black;
+   padding: 14px 10px;
+   width: 200px;
+   outline: none;
+   color: black;
+   border-radius: 14px;
+   transition: 0.25s;
+   
+  }
+.box input[type="text"]:focus,.box input[type="password"]:focus,.box input[type="email"]:focus{
+   
+   border-color: #ff3e30;
+   width:250px;
+  }
+.box input[type="submit"]{
+   border:0;
+   background: none;
+   display: block;
+   margin: 20px auto;
+   text-align: center;
+   border: 2px solid black;
+   padding: 14px 40px;
+   outline: none;
+   color: black;
+   border-radius: 24px;
+   transition: 0.25s;
+   cursor: pointer;
+ }
+.box input[type="submit"]:hover{
+   background:  #4285f4;
+   color: white;
+ }
+.box a{
+  font-family: times new roman;
+  font-weight: bold;
+  font-size: 18px;
+  color:#4285f4;
+  text-decoration: none;
+}
+.box a:hover{
+  color:#ea4335;
+}
+h1{
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: algerian;
+  letter-spacing: 5px;
+  color:white;
+  -webkit-text-shadow:1px black;
+  text-shadow: 1px 5px black;
+  position: absolute;;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.header{
+  font-family: times new roman;
+  font-size:30px;
+  color:white;
+  width: 305px;
+  text-align: center;
+  margin-left: 17%;
+  margin-top:16%;
+  position: relative;
+  font-style: oblique;
+  color:yellow;
+}
+.head{
+  font-family: times new roman;
+  font-size: 50px;
+  color:white;
+  text-shadow: none;
+  width:350px;
+  text-align:center;
+  margin-left:-26%;
+  margin-top:9%;
+  font-style:oblique;
+}
+.head1{
+  font-family: times new roman;
+  font-size:50px;
+  color:red;
+  text-shadow: none;
+  width:350px;
+  text-align: center;
+  margin-left: -200px;
+  margin-top:9%;
+  font-style: oblique;
+}
+

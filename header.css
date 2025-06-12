@@ -1,0 +1,47 @@
+
+header{
+	background:transparent;
+	height: 15vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: none;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 45px; 
+	font-family: Algerian;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+    
+}
+ul li a:hover
+{
+	background-color:#000;
+	color:#fff;
+}
+ul li .active a
+{
+	background-color:#000;
+	color:#fff;
+}
+ul li a .mobicart{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s;
+	left:35%;
+}
+.main
+{
+	max-width: 1500px;
+	margin-top: auto;
+}

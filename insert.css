@@ -1,0 +1,14 @@
+body{
+	align-content: center;
+	align-items: center;
+	background-color:#ffffcc ;
+	background-size: cover;
+	display: inline-flex;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+form{
+	align-self: center;
+	justify-content: center;
+	align-items: center;
+}
